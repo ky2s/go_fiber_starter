@@ -10,6 +10,8 @@ import (
 	"github.com/jameskeane/bcrypt"
 	"github.com/jmoiron/sqlx"
 	"github.com/spf13/viper"
+
+	_ "github.com/go-sql-driver/mysql"
 )
 
 type Config struct {
